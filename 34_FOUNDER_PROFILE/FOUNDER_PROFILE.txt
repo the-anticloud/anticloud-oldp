@@ -1,0 +1,25 @@
+ Founder Profile — OLDP
+
+Company: Anticloud FZ LLE
+Model: PAX L5 Narrow L2 General 27B
+Project: OLDP | Category: LEGAL_TECH
+Upstream: https://github.com/openlegaldata/oldp (MIT)
+
+ Overview
+
+This document covers founder profile for the Anticloud integration of OLDP.
+
+Open legal data platform: court decisions, laws
+
+ Anticloud Integration
+
+PAX L5 Narrow L2 General 27B is integrated into OLDP to provide:
+- Local AI inference with zero cloud dependency
+- AIOSS tamper-evident audit chain
+- AES-256 encryption at rest
+- Single-binary deployment
+
+ Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
