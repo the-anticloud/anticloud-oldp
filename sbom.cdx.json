@@ -1,0 +1,250 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:4ce0e1f7-ae78-5ddb-a6df-eced2508f5ee",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T12:41:29Z",
+  "component": {
+   "type": "application",
+   "name": "OLDP",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/OLDP@83b357604d34",
+   "purl": "pkg:generic/anticloud/OLDP@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "Pillow",
+   "version": ">=7.1.0",
+   "purl": "pkg:pypi/pillow@7.1.0",
+   "bom-ref": "pypi/Pillow@>=7.1.0"
+  },
+  {
+   "type": "library",
+   "name": "python-dateutil",
+   "version": ">=2.6.1",
+   "purl": "pkg:pypi/python-dateutil@2.6.1",
+   "bom-ref": "pypi/python-dateutil@>=2.6.1"
+  },
+  {
+   "type": "library",
+   "name": "python-slugify",
+   "version": ">=1.2.1",
+   "purl": "pkg:pypi/python-slugify@1.2.1",
+   "bom-ref": "pypi/python-slugify@>=1.2.1"
+  },
+  {
+   "type": "library",
+   "name": "requests",
+   "version": ">=2.20.1",
+   "purl": "pkg:pypi/requests@2.20.1",
+   "bom-ref": "pypi/requests@>=2.20.1"
+  },
+  {
+   "type": "library",
+   "name": "requests-toolbelt",
+   "version": ">=0.7.1",
+   "purl": "pkg:pypi/requests-toolbelt@0.7.1",
+   "bom-ref": "pypi/requests-toolbelt@>=0.7.1"
+  },
+  {
+   "type": "library",
+   "name": "whitenoise",
+   "version": ">=4.1.3",
+   "purl": "pkg:pypi/whitenoise@4.1.3",
+   "bom-ref": "pypi/whitenoise@>=4.1.3"
+  },
+  {
+   "type": "library",
+   "name": "beautifulsoup4",
+   "version": ">=4.7.1",
+   "purl": "pkg:pypi/beautifulsoup4@4.7.1",
+   "bom-ref": "pypi/beautifulsoup4@>=4.7.1"
+  },
+  {
+   "type": "library",
+   "name": "Markdown",
+   "version": ">=3.4",
+   "purl": "pkg:pypi/markdown@3.4",
+   "bom-ref": "pypi/Markdown@>=3.4"
+  },
+  {
+   "type": "library",
+   "name": "nh3",
+   "version": ">=0.3.0",
+   "purl": "pkg:pypi/nh3@0.3.0",
+   "bom-ref": "pypi/nh3@>=0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "msgpack",
+   "version": ">=0.3.0",
+   "purl": "pkg:pypi/msgpack@0.3.0",
+   "bom-ref": "pypi/msgpack@>=0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "django",
+   "version": "==5.2.16",
+   "purl": "pkg:pypi/django@5.2.16",
+   "bom-ref": "pypi/django@==5.2.16"
+  },
+  {
+   "type": "library",
+   "name": "dj-database-url",
+   "version": "unspecified",
+   "purl": "pkg:pypi/dj-database-url",
+   "bom-ref": "pypi/dj-database-url@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-appconf",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-appconf",
+   "bom-ref": "pypi/django-appconf@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-configurations",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-configurations",
+   "bom-ref": "pypi/django-configurations@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-environ",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-environ",
+   "bom-ref": "pypi/django-environ@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-mathfilters",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-mathfilters",
+   "bom-ref": "pypi/django-mathfilters@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-compressor",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-compressor",
+   "bom-ref": "pypi/django-compressor@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-tellme",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-tellme",
+   "bom-ref": "pypi/django-tellme@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-widget-tweaks",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-widget-tweaks",
+   "bom-ref": "pypi/django-widget-tweaks@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-autocomplete-light",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-autocomplete-light",
+   "bom-ref": "pypi/django-autocomplete-light@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-haystack",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-haystack",
+   "bom-ref": "pypi/django-haystack@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-crispy-forms",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-crispy-forms",
+   "bom-ref": "pypi/django-crispy-forms@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "crispy-bootstrap4",
+   "version": ">=2024.10",
+   "purl": "pkg:pypi/crispy-bootstrap4@2024.10",
+   "bom-ref": "pypi/crispy-bootstrap4@>=2024.10"
+  },
+  {
+   "type": "library",
+   "name": "django-allauth",
+   "version": ">=65.1.0",
+   "purl": "pkg:pypi/django-allauth@65.1.0",
+   "bom-ref": "pypi/django-allauth@>=65.1.0"
+  },
+  {
+   "type": "library",
+   "name": "django-debug-toolbar",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-debug-toolbar",
+   "bom-ref": "pypi/django-debug-toolbar@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "djangorestframework",
+   "version": "unspecified",
+   "purl": "pkg:pypi/djangorestframework",
+   "bom-ref": "pypi/djangorestframework@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "django-filter",
+   "version": "unspecified",
+   "purl": "pkg:pypi/django-filter",
+   "bom-ref": "pypi/django-filter@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "djangorestframework-xml",
+   "version": "unspecified",
+   "purl": "pkg:pypi/djangorestframework-xml",
+   "bom-ref": "pypi/djangorestframework-xml@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "drf-yasg",
+   "version": "<1.21.17",
+   "purl": "pkg:pypi/drf-yasg@1.21.17",
+   "bom-ref": "pypi/drf-yasg@<1.21.17"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
